@@ -1,3 +1,33 @@
-# vue-word-cloud
+<h1 align="center">
+Vue Word Cloud
+</h1>
 
-* ❤️ Create word cloud using vue 3.x and echarts 5.x
+<p align="center">
+  <a href="https://pdsuwwz.github.io/vue-word-cloud">❤️ Go</a>
+<p>
+
+
+<p align="center">
+Create word cloud using Vue 3.x and Echarts 5.x
+<p>
+
+<p align="center">
+  <img width="632" alt="image" src="https://user-images.githubusercontent.com/19891724/168128377-ee6e2eb5-5f52-42f6-8063-dbb5d9fe3b0d.png">
+<p>
+
+
+## Install
+
+```
+pnpm install
+```
+
+## Run
+
+```
+pnpm start
+```
+
+## Play
+
+http://localhost:4500/
