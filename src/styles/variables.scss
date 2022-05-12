@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html, body {
+  background-color: #fff;
+}
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #FCFAF2;
+}
+
+#nprogress .bar {
+  background: #db1f44 !important;
+  height: 5px !important;
+}
+
+#nprogress .peg {
+  box-shadow: 0 0 10px #db1f44, 0 0 5px #db1f44 !important;
+}
