@@ -10,7 +10,7 @@ const htmlPlugin = () => {
     transformIndexHtml (html) {
       return html.replace(
         /<title>(.*?)<\/title>/,
-        '<title>📌 Vue Word Cloud</title>'
+        '<title>❤️ Vue Word Cloud</title>'
       )
     }
   }

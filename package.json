@@ -1,6 +1,6 @@
 {
   "name": "vue-word-cloud",
-  "description": "Create word cloud using vue 3.x and echarts 5.x",
+  "description": "Create word cloud using Vue 3.x and Echarts 5.x",
   "version": "0.0.1",
   "author": "Wisdom <pdsu.wwz@foxmail.com>",
   "license": "MIT",
