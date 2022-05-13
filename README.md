@@ -3,12 +3,14 @@ Vue Word Cloud
 </h1>
 
 <p align="center">
-  <a href="https://pdsuwwz.github.io/vue-word-cloud">❤️ Go</a>
-<p>
+  <a href="https://github.com/pdsuwwz/vue-word-cloud/actions" target="_blank">
+    <img src="https://github.com/pdsuwwz/vue-word-cloud/workflows/Github%20Pages/badge.svg" alt="GitHub Pages" />
+  </a>
+</p>
 
 
 <p align="center">
-Create word cloud using Vue 3.x and Echarts 5.x
+❤️ Create word cloud using Vue 3.x and Echarts 5.x | <a href="https://pdsuwwz.github.io/vue-word-cloud">Playground</a>
 <p>
 
 <p align="center">

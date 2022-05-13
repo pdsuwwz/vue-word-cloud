@@ -1,4 +1,4 @@
-name: gh-pages
+name: Github Pages
 
 on:
   # set triggers here, like on push or on release
