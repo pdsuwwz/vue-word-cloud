@@ -1,8 +1,13 @@
 <template>
-  <div class="box-container">
-    <WordCloud
-      :keywords="keyWordsList"
-    />
+  <div class="overview-box">
+    <div class="box-container">
+      <div class="box-container__inner">
+        <WordCloud
+          :keywords="keyWordsList"
+        />
+      </div>
+    </div>
+    <Footer show-border />
   </div>
 </template>
 
@@ -35,9 +40,25 @@ export default defineComponent({
 </script>
 
 <style lang="scss" scoped>
-.box-container {
-  width: 800px;
-  height: 600px;
-  margin: 0 auto;
+.overview-box {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  .box-container {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    margin: 0 auto;
+    .box-container__inner {
+      width: 800px;
+      height: 100%;
+    }
+    @media screen and (max-width: 800px) {
+      .box-container__inner {
+        width: 100vw;
+        height: 100vw;
+      }
+    }
+  }
 }
 </style>
