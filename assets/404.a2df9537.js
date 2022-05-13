@@ -1,1 +1,0 @@
-import{_ as a,o as n,c as r,a as o}from"./index.c7800a2a.js";const t={name:"NotFound"},e=[o("h1",null,"NOT-FOUND 404",-1)];var m=a(t,[["render",function(s,u,d,l,c,f){return n(),r("div",null,e)}]]);export{m as default};
