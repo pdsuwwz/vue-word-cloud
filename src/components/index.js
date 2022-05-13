@@ -1,4 +1,5 @@
 // Vue Component Install
+import Footer from '@/components/Footer/index.vue'
 
 const Components = {
   install (app) {
@@ -9,7 +10,7 @@ const Components = {
 }
 
 const componentList = [
-  // ...
+  Footer
 ]
 
 export default Components

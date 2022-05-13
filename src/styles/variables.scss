@@ -1,15 +1,37 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
-html, body {
-  background-color: #fff;
-}
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
+
+body {
+  width: 100vw;
+  color: #495164;
   -moz-osx-font-smoothing: grayscale;
-  color: #FCFAF2;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  background-color: #f5f7fa;
+}
+
+html {
+  font-size: 14px;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  overflow-y: scroll;
+}
+
+:root {
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+:root body {
+  position: absolute;
+}
+
+#app, body, html {
+  height: 100%;
 }
 
 #nprogress .bar {
@@ -20,3 +42,10 @@ html, body {
 #nprogress .peg {
   box-shadow: 0 0 10px #db1f44, 0 0 5px #db1f44 !important;
 }
+
+a {
+  text-decoration: none;
+  background-color: transparent;
+  outline: none;
+}
+
