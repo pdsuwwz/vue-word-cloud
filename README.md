@@ -33,3 +33,9 @@ pnpm start
 ## Play
 
 http://localhost:4500/
+
+
+## 😎 Awesome
+
+* [awesome-vite](https://github.com/pdsuwwz/awesome-vite)
+
