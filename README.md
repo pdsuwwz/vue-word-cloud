@@ -18,24 +18,24 @@ Vue Word Cloud
 <p>
 
 
-## Install
+## 📦 Installation
 
 ```
 pnpm install
 ```
 
-## Run
+## 🚀 Running
 
 ```
 pnpm start
 ```
-
-## Play
-
-http://localhost:4500/
-
+<!-- 🎡 Playground: http://localhost:4500/ -->
 
 ## 😎 Awesome
 
 * [awesome-vite](https://github.com/pdsuwwz/awesome-vite)
 
+
+## License
+
+[MIT](./LICENSE) License | Copyright © 2020-PRESENT [Wisdom](https://github.com/pdsuwwz)
