@@ -12,6 +12,9 @@
     "lint": "eslint ./src --ext .js,.jsx,.vue",
     "lint:fix": "eslint --fix --cache --ext .js,.jsx,.vue ./src"
   },
+  "engines": {
+    "node": ">= 14.19.2"
+  },
   "keywords": [
     "vue",
     "vue3",
