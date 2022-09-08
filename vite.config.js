@@ -1,6 +1,5 @@
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
-import { terser } from 'rollup-plugin-terser'
 
 const path = require('path')
 
@@ -22,15 +21,14 @@ export default defineConfig({
     : '/',
   plugins: [
     vue(),
-    htmlPlugin(),
-    terser(
-      {
-        compress: {
-          drop_console: true
-        }
-      }
-    )
+    htmlPlugin()
   ],
+  esbuild: {
+    drop: [
+      'console',
+      'debugger'
+    ]
+  },
   resolve: {
     alias: [
       {
