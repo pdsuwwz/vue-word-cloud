@@ -15,7 +15,7 @@ specifiers:
   eslint-plugin-import: ^2.26.0
   eslint-plugin-node: ^11.1.0
   eslint-plugin-promise: 6.0.1
-  eslint-plugin-vue: ^8.7.1
+  eslint-plugin-vue: 9.4.0
   nprogress: ^0.2.0
   rollup: ^2.79.0
   sass: ^1.54.9
@@ -43,7 +43,7 @@ devDependencies:
   eslint-plugin-import: 2.26.0_eslint@8.23.0
   eslint-plugin-node: 11.1.0_eslint@8.23.0
   eslint-plugin-promise: 6.0.1_eslint@8.23.0
-  eslint-plugin-vue: 8.7.1_eslint@8.23.0
+  eslint-plugin-vue: 9.4.0_eslint@8.23.0
   rollup: 2.79.0
   sass: 1.54.9
   vite: 3.1.0_sass@1.54.9
@@ -2180,9 +2180,9 @@ packages:
       eslint: 8.23.0
     dev: true
 
-  /eslint-plugin-vue/8.7.1_eslint@8.23.0:
-    resolution: {integrity: sha512-28sbtm4l4cOzoO1LtzQPxfxhQABararUb1JtqusQqObJpWX2e/gmVyeYVfepizPFne0Q5cILkYGiBoV36L12Wg==}
-    engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
+  /eslint-plugin-vue/9.4.0_eslint@8.23.0:
+    resolution: {integrity: sha512-Nzz2QIJ8FG+rtJaqT/7/ru5ie2XgT9KCudkbN0y3uFYhQ41nuHEaboLAiqwMcK006hZPQv/rVMRhUIwEGhIvfQ==}
+    engines: {node: ^14.17.0 || >=16.0.0}
     peerDependencies:
       eslint: ^6.2.0 || ^7.0.0 || ^8.0.0
     dependencies:
@@ -2192,7 +2192,8 @@ packages:
       nth-check: 2.1.1
       postcss-selector-parser: 6.0.10
       semver: 7.3.7
-      vue-eslint-parser: 8.3.0_eslint@8.23.0
+      vue-eslint-parser: 9.1.0_eslint@8.23.0
+      xml-name-validator: 4.0.0
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -3315,9 +3316,9 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vue-eslint-parser/8.3.0_eslint@8.23.0:
-    resolution: {integrity: sha512-dzHGG3+sYwSf6zFBa0Gi9ZDshD7+ad14DGOdTLjruRVgZXe2J+DcZ9iUhyR48z5g1PqRa20yt3Njna/veLJL/g==}
-    engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
+  /vue-eslint-parser/9.1.0_eslint@8.23.0:
+    resolution: {integrity: sha512-NGn/iQy8/Wb7RrRa4aRkokyCZfOUWk19OP5HP6JEozQFX5AoS/t+Z0ZN7FY4LlmWc4FNI922V7cvX28zctN8dQ==}
+    engines: {node: ^14.17.0 || >=16.0.0}
     peerDependencies:
       eslint: '>=6.0.0'
     dependencies:
@@ -3376,6 +3377,11 @@ packages:
 
   /wrappy/1.0.2:
     resolution: {integrity: sha512-l4Sp/DRseor9wL6EvV2+TuQn63dMkPjZ/sp9XkghTEbV9KlPS1xUsZ3u7/IQO4wxtcFB4bgpQPRcR3QCvezPcQ==}
+    dev: true
+
+  /xml-name-validator/4.0.0:
+    resolution: {integrity: sha512-ICP2e+jsHvAj2E2lIHxa5tjXRlKDJo4IdvPvCXbXQGdzSfmSpNVyIKMvoZHjDY9DP0zV17iI85o90vRFXNccRw==}
+    engines: {node: '>=12'}
     dev: true
 
   /yallist/4.0.0:
