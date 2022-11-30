@@ -51,7 +51,7 @@
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "6.1.0",
     "eslint-plugin-vue": "9.6.0",
-    "rollup": "3.2.2",
+    "rollup": "3.5.0",
     "sass": "^1.54.9",
     "vite": "^3.1.0"
   }
