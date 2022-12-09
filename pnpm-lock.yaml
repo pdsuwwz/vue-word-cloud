@@ -4,7 +4,7 @@ specifiers:
   '@babel/core': ^7.19.0
   '@babel/eslint-parser': ^7.18.9
   '@babel/preset-env': ^7.19.0
-  '@vitejs/plugin-vue': ^3.1.0
+  '@vitejs/plugin-vue': ^4.0.0
   '@vue/compiler-sfc': ^3.2.39
   '@vue/test-utils': ^2.0.2
   babel-plugin-transform-vite-meta-env: ^1.0.3
@@ -34,7 +34,7 @@ devDependencies:
   '@babel/core': 7.19.0
   '@babel/eslint-parser': 7.18.9_mcrdghycyr2f4f7ak6cewd56ni
   '@babel/preset-env': 7.19.0_@babel+core@7.19.0
-  '@vitejs/plugin-vue': 3.1.0_vite@3.1.0+vue@3.2.39
+  '@vitejs/plugin-vue': 4.0.0_vite@3.1.0+vue@3.2.39
   '@vue/compiler-sfc': 3.2.39
   '@vue/test-utils': 2.0.2_vue@3.2.39
   babel-plugin-transform-vite-meta-env: 1.0.3
@@ -1350,11 +1350,11 @@ packages:
     resolution: {integrity: sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==}
     dev: true
 
-  /@vitejs/plugin-vue/3.1.0_vite@3.1.0+vue@3.2.39:
-    resolution: {integrity: sha512-fmxtHPjSOEIRg6vHYDaem+97iwCUg/uSIaTzp98lhELt2ISOQuDo2hbkBdXod0g15IhfPMQmAxh4heUks2zvDA==}
+  /@vitejs/plugin-vue/4.0.0_vite@3.1.0+vue@3.2.39:
+    resolution: {integrity: sha512-e0X4jErIxAB5oLtDqbHvHpJe/uWNkdpYV83AOG2xo2tEVSzCzewgJMtREZM30wXnM5ls90hxiOtAuVU6H5JgbA==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
-      vite: ^3.0.0
+      vite: ^4.0.0
       vue: ^3.2.25
     dependencies:
       vite: 3.1.0_sass@1.54.9
