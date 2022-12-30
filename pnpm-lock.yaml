@@ -17,7 +17,7 @@ specifiers:
   eslint-plugin-promise: 6.1.1
   eslint-plugin-vue: 9.8.0
   nprogress: ^0.2.0
-  rollup: 3.8.0
+  rollup: 3.9.0
   sass: ^1.54.9
   vite: ^4.0.0
   vue: ^3.2.39
@@ -44,7 +44,7 @@ devDependencies:
   eslint-plugin-node: 11.1.0_eslint@8.23.0
   eslint-plugin-promise: 6.1.1_eslint@8.23.0
   eslint-plugin-vue: 9.8.0_eslint@8.23.0
-  rollup: 3.8.0
+  rollup: 3.9.0
   sass: 1.54.9
   vite: 4.0.0_sass@1.54.9
 
@@ -3077,8 +3077,8 @@ packages:
       glob: 7.2.3
     dev: true
 
-  /rollup/3.8.0:
-    resolution: {integrity: sha512-+UR6PnUslneJNiJfLSzy4XH6R50ZGF0MS7UCv20ftXrktF/TkvZDwiBtXX65esblLR5p8w6LmXgPwt2f2B8SoQ==}
+  /rollup/3.9.0:
+    resolution: {integrity: sha512-nGGylpmblyjTpF4lEUPgmOw6OVxRvnI6Iuuh6Lz4O/X66cVOX1XJSsqP1YamxQ+mPuFE7qJxLFDSCk8rNv5dDw==}
     engines: {node: '>=14.18.0', npm: '>=8.0.0'}
     hasBin: true
     optionalDependencies:
@@ -3327,7 +3327,7 @@ packages:
       esbuild: 0.16.4
       postcss: 8.4.19
       resolve: 1.22.1
-      rollup: 3.8.0
+      rollup: 3.9.0
       sass: 1.54.9
     optionalDependencies:
       fsevents: 2.3.2
