@@ -15,7 +15,7 @@ specifiers:
   eslint-plugin-import: ^2.26.0
   eslint-plugin-node: ^11.1.0
   eslint-plugin-promise: 6.1.1
-  eslint-plugin-vue: 9.8.0
+  eslint-plugin-vue: 9.9.0
   nprogress: ^0.2.0
   rollup: 3.10.0
   sass: ^1.54.9
@@ -43,7 +43,7 @@ devDependencies:
   eslint-plugin-import: 2.26.0_eslint@8.23.0
   eslint-plugin-node: 11.1.0_eslint@8.23.0
   eslint-plugin-promise: 6.1.1_eslint@8.23.0
-  eslint-plugin-vue: 9.8.0_eslint@8.23.0
+  eslint-plugin-vue: 9.9.0_eslint@8.23.0
   rollup: 3.10.0
   sass: 1.54.9
   vite: 4.0.0_sass@1.54.9
@@ -2190,8 +2190,8 @@ packages:
       eslint: 8.23.0
     dev: true
 
-  /eslint-plugin-vue/9.8.0_eslint@8.23.0:
-    resolution: {integrity: sha512-E/AXwcTzunyzM83C2QqDHxepMzvI2y6x+mmeYHbVDQlKFqmKYvRrhaVixEeeG27uI44p9oKDFiyCRw4XxgtfHA==}
+  /eslint-plugin-vue/9.9.0_eslint@8.23.0:
+    resolution: {integrity: sha512-YbubS7eK0J7DCf0U2LxvVP7LMfs6rC6UltihIgval3azO3gyDwEGVgsCMe1TmDiEkl6GdMKfRpaME6QxIYtzDQ==}
     engines: {node: ^14.17.0 || >=16.0.0}
     peerDependencies:
       eslint: ^6.2.0 || ^7.0.0 || ^8.0.0
