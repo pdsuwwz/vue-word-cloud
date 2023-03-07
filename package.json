@@ -31,28 +31,28 @@
     "url": "https://github.com/pdsuwwz/vue-word-cloud/issues"
   },
   "dependencies": {
-    "echarts": "^5.3.3",
-    "echarts-wordcloud": "^2.0.0",
+    "echarts": "^5.4.1",
+    "echarts-wordcloud": "^2.1.0",
     "nprogress": "^0.2.0",
-    "vue": "^3.2.39",
-    "vue-router": "^4.1.5"
+    "vue": "^3.2.47",
+    "vue-router": "^4.1.6"
   },
   "devDependencies": {
-    "@babel/core": "^7.19.0",
-    "@babel/eslint-parser": "^7.18.9",
-    "@babel/preset-env": "^7.19.0",
+    "@babel/core": "^7.21.0",
+    "@babel/eslint-parser": "^7.19.1",
+    "@babel/preset-env": "^7.20.2",
     "@vitejs/plugin-vue": "^4.0.0",
-    "@vue/compiler-sfc": "^3.2.39",
-    "@vue/test-utils": "^2.0.2",
+    "@vue/compiler-sfc": "^3.2.47",
+    "@vue/test-utils": "^2.3.0",
     "babel-plugin-transform-vite-meta-env": "^1.0.3",
     "cross-env": "^7.0.3",
-    "eslint": "^8.23.0",
-    "eslint-plugin-import": "^2.26.0",
+    "eslint": "^8.35.0",
+    "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "6.1.1",
     "eslint-plugin-vue": "9.9.0",
-    "rollup": "3.12.0",
-    "sass": "^1.54.9",
-    "vite": "^4.0.0"
+    "rollup": "3.18.0",
+    "sass": "^1.58.3",
+    "vite": "^4.1.4"
   }
 }
