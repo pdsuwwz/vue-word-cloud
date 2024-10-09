@@ -13,7 +13,7 @@ specifiers:
   echarts-wordcloud: ^2.1.0
   eslint: ^8.35.0
   eslint-plugin-import: ^2.27.5
-  eslint-plugin-node: ^11.1.0
+  eslint-plugin-n: ^14.0.0
   eslint-plugin-promise: 6.1.1
   eslint-plugin-vue: 9.9.0
   nprogress: ^0.2.0
@@ -41,7 +41,7 @@ devDependencies:
   cross-env: 7.0.3
   eslint: 8.35.0
   eslint-plugin-import: 2.27.5_eslint@8.35.0
-  eslint-plugin-node: 11.1.0_eslint@8.35.0
+  eslint-plugin-n: 14.0.0_eslint@8.35.0
   eslint-plugin-promise: 6.1.1_eslint@8.35.0
   eslint-plugin-vue: 9.9.0_eslint@8.35.0
   rollup: 3.19.1
@@ -1907,7 +1907,7 @@ packages:
     dev: true
 
   /concat-map/0.0.1:
-    resolution: {integrity: sha1-2Klr13/Wjfd5OnMDajug1UBdR3s=}
+    resolution: {integrity: sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==}
     dev: true
 
   /config-chain/1.1.13:
@@ -2177,8 +2177,8 @@ packages:
       - supports-color
     dev: true
 
-  /eslint-plugin-es/3.0.1_eslint@8.35.0:
-    resolution: {integrity: sha512-GUmAsJaN4Fc7Gbtl8uOBlayo2DqhwWvEzykMHSCZHU3XdJ+NSzzZcVhXh3VxX5icqQ+oQdIEawXX8xkR3mIFmQ==}
+  /eslint-plugin-es/4.1.0_eslint@8.35.0:
+    resolution: {integrity: sha512-GILhQTnjYE2WorX5Jyi5i4dz5ALWxBIdQECVQavL6s7cI76IZTDWleTHkxz/QT3kvcs2QlGHvKLYsSlPOlPXnQ==}
     engines: {node: '>=8.10.0'}
     peerDependencies:
       eslint: '>=4.19.1'
@@ -2220,16 +2220,17 @@ packages:
       - supports-color
     dev: true
 
-  /eslint-plugin-node/11.1.0_eslint@8.35.0:
-    resolution: {integrity: sha512-oUwtPJ1W0SKD0Tr+wqu92c5xuCeQqB3hSCHasn/ZgjFdA9iDGNkNf2Zi9ztY7X+hNuMib23LNGRm6+uN+KLE3g==}
-    engines: {node: '>=8.10.0'}
+  /eslint-plugin-n/14.0.0_eslint@8.35.0:
+    resolution: {integrity: sha512-mNwplPLsbaKhHyA0fa/cy8j+oF6bF6l81hzBTWa6JOvPcMNAuIogk2ih6d9tYvWYzyUG+7ZFeChqbzdFpg2QrQ==}
+    engines: {node: '>=12.22.0'}
     peerDependencies:
-      eslint: '>=5.16.0'
+      eslint: '>=7.0.0'
     dependencies:
       eslint: 8.35.0
-      eslint-plugin-es: 3.0.1_eslint@8.35.0
-      eslint-utils: 2.1.0
+      eslint-plugin-es: 4.1.0_eslint@8.35.0
+      eslint-utils: 3.0.0_eslint@8.35.0
       ignore: 5.2.4
+      is-core-module: 2.11.0
       minimatch: 3.1.2
       resolve: 1.22.1
       semver: 6.3.0
